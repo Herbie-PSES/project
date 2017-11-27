@@ -1,0 +1,7 @@
+<launch>
+
+	<node pkg="pses_rundkurs" type="wallfollow_node" name="wallfollow_node" output="screen"></node>
+	<node pkg="pses_rundkurs" type="simple_corner_node" name="simple_corner_node" output="screen"></node>
+	<node pkg="pses_rundkurs" type="rundkurs_node" name="rundkurs_node" output="screen"></node>
+	
+</launch>
